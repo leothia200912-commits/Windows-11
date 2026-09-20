@@ -45,7 +45,6 @@ jobs:
         Write-Host "Username: runneradmin" -ForegroundColor Yellow
         Write-Host "Password: P@ssw0rd!" -ForegroundColor Yellow
         
-    - name: Install Tailscale (Silent)run: |
         Write-Host "Downloading Tailscale..." -ForegroundColor Green
         $tsUrl = "https://pkgs.tailscale.com/stable/tailscale-setup-1.82.0-amd64.msi"
         $installerPath = "$env:TEMP\tailscale.msi"
