@@ -1,6 +1,4 @@
-nombre: PC criado pelo @alves7.pcm
 
-en:
   flujo_de_trabajo:
     entradas:
       número_de_instancia:
@@ -9,7 +7,6 @@ en:
         valor predeterminado: '1'
         tipo: cadena
 
-empleos:
   desplegar-rdp:
     Se ejecuta en: windows-latest
     tiempo de espera-minutos: 360
